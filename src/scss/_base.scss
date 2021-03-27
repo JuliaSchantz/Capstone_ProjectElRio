@@ -1,0 +1,49 @@
+#logo {
+  height: 38px;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 318px;
+}
+
+footer {
+    margin: 20px 0 0 0;
+}
+
+header {
+    background: url("../images/main-mobile-header.png");
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Responsive styles */
+
+/*@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+  footer {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+   body {
+    width: 1200px;
+  }
+}*/
