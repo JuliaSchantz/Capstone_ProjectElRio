@@ -31,22 +31,28 @@
   width: 255px;
   font-size: 0.9rem;
   color: $color-blue-800;
-  margin-bottom: 20px;
+  margin: 26px 0 30px 0;
 }
 }
 
 .main-need {
   background: url("../images/main-need-image.png") no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
+  width: 318px;
 
   &__header {
     color: $color-green-800;
-    margin: 0 0 0 125px;
-    padding-top: 20px;
+    margin: 0 0 0 120px;
+    padding-top: 26px;
+  }
+
+  &__left {
+    margin-right: 30px;
   }
 
   &__list-image {
     width: 62px;
+    padding: 0 0 0 35px;
   }
 
   &__list {
@@ -54,19 +60,97 @@
   }
 
   &__list-text {
-    width: 130px;
+    width: 115px;
     color: white;
     font-size: 0.9rem;
     text-align: center;
+    margin: 0px;
   }
 
   &__top {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 18px;
   }
 
   &__bottom {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+.main-help {
+  margin: 0 0 0 30px;
+  list-style: none;
+
+  &__list-header {
+    font-size: 1.1rem;
+    color: $color-blue-800;
+    margin: 5px 0 0 0;
+  }
+
+  &__list-body {
+    margin: 8px 0 12px 0;
+    color: $color-blue;
+  }
+
+  &__list-button {
+    margin-bottom: 35px;
+    font-weight: $weight-semi-bold;
+    font-size: 0.8rem;
+    color: $color-green;
+    border: 2px solid $color-green;
+    background-color: white;
+    border-radius: 3px;
+    padding: 4px 14px;
+    cursor: pointer;
+  }
+
+  &__list-image {
+    width: 250px;
+  }
+
+  &__header {
+    margin: 0 0 0 35px;
+    padding: 26px 0 16px 0;
+    color: $color-green-800;
+  }
+}
+
+.main-subscribe {
+  background-color: $color-blue-800;
+
+  &__button {
+    color: white;
+    background-color: $color-green-800;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 14px 3px 14px;
+  }
+
+  &__data {
+    margin-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__header {
+    margin: 0 0 0 30px;
+    padding: 26px 0 14px 0;
+    color: white;
+    line-height: 1.5rem;
+  }
+
+  &__email-input {
+    width: 252px;
+    padding: 3px;
+    margin: 5px 0;
+  }
+
+  &__name-input {
+    width: 120px;
+    padding: 3px;
   }
 }
