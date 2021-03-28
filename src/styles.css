@@ -1,9 +1,6 @@
-@import url("https://use.typekit.net/qtw0yio.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 /* Define vars */
 /* Basic styles */
-#logo {
-  height: 38px; }
-
 a {
   margin: 0;
   padding: 0; }
@@ -17,7 +14,21 @@ footer {
   margin: 20px 0 0 0; }
 
 header {
-  background: url("../images/main-mobile-header.png"); }
+  background: url("../images/main-mobile-header.png") no-repeat 95% 50%;
+  height: 218px;
+  width: 318px;
+  background-size: contain; }
+
+h1 {
+  margin: 0; }
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif; }
 
 img {
   margin: 0;
@@ -43,6 +54,66 @@ ul {
   }
 }*/
 /* Generic block styles */
+#container {
+  margin: auto;
+  width: 318px; }
+
+#icon {
+  margin: auto;
+  padding: 8px 0 30px 65px; }
+
+#logo {
+  width: 180px; }
+
 /* Page-specific styles */
+.main-image {
+  margin-left: 30px;
+  width: 247px; }
+  .main-image__header {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px black;
+    margin: 0px;
+    font-size: 1.2rem; }
+  .main-image__text {
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+    text-shadow: 0px 0px 5px black;
+    font-size: 1.1rem; }
+
+.main-about {
+  margin-left: 30px; }
+  .main-about__bold {
+    display: none; }
+  .main-about__text {
+    width: 255px;
+    font-size: 0.9rem;
+    color: #5A6162;
+    margin-bottom: 20px; }
+
+.main-need {
+  background: url("../images/main-need-image.png") no-repeat;
+  background-size: contain; }
+  .main-need__header {
+    color: #A2AE8A;
+    margin: 0 0 0 125px;
+    padding-top: 20px; }
+  .main-need__list-image {
+    width: 62px; }
+  .main-need__list {
+    margin-left: 30px; }
+  .main-need__list-text {
+    width: 130px;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center; }
+  .main-need__top {
+    display: flex;
+    flex-flow: row wrap; }
+  .main-need__bottom {
+    display: flex;
+    flex-flow: row wrap; }
 
 /*# sourceMappingURL=styles.css.map */
