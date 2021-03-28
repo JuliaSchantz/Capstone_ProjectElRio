@@ -11,16 +11,19 @@ body {
   width: 318px; }
 
 footer {
-  margin: 20px 0 0 0;
   font-family: "Source Sans Pro", sans-serif;
   list-style: none;
-  text-decoration: none; }
+  background-color: #A2AE8A; }
 
 header {
   background: url("../images/main-mobile-header.png") no-repeat 95% 50%;
   height: 218px;
   width: 318px;
   background-size: contain; }
+
+hr {
+  margin: 26px 30px 0 0;
+  border: 1px solid white; }
 
 h1 {
   margin: 0; }
@@ -68,8 +71,39 @@ ul {
 #logo {
   width: 180px; }
 
+.footer-bottom {
+  margin-top: 20px; }
+
+.footer-left {
+  margin-right: 26px; }
+
 .social-icon {
   width: 20px; }
+
+.main-footer {
+  margin: 0 0 0 30px;
+  padding-top: 24px; }
+
+.main-footer__item {
+  width: 110px; }
+
+.main-footer__item-sub {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem; }
+
+.main-footer__item-header {
+  text-decoration: none;
+  color: white; }
+
+.main-footer__column {
+  display: flex;
+  flex-flow: row wrap; }
+
+.main-footer__reserved {
+  color: white;
+  font-size: 0.8rem;
+  padding: 0 0 20px 0; }
 
 /* Page-specific styles */
 .main-image {
@@ -100,7 +134,7 @@ ul {
     margin: 26px 0 30px 0; }
 
 .main-need {
-  background: url("../images/main-need-image.png") no-repeat;
+  background-color: #5A6162;
   background-size: 100% 100%;
   width: 318px; }
   .main-need__header {
