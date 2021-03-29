@@ -53,12 +53,24 @@ ul {
 
 /* Responsive styles */
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     width: 768px;
   }
+
   footer {
     margin: 0;
+  }
+
+  header {
+    width: 768px;
+    height: 380px;
+    background: url("../images/main-header-image.png") no-repeat 95% 50%;
+    background-size: cover;
+  }
+
+  h3 {
+    font-size: 1.6rem;
   }
 }
 
@@ -66,4 +78,8 @@ ul {
    body {
     width: 1200px;
   }
-}*/
+  header {
+    width: 1200px;
+    height: 600px;
+  }
+}
