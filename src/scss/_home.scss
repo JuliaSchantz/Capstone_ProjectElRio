@@ -159,6 +159,14 @@
 /* Responsive styles */
 
 @media (min-width: 768px) {
+  #main-help__blockA {
+      order: 2;
+  }
+  #main-help__blockB {
+      order: 1;
+      padding-right: 20px;
+  }
+
   .main-need {
     background: url("../images/main-need-image.png") no-repeat;
     width: 768px;
@@ -196,29 +204,56 @@
   }
 
   .main-about {
-    margin-left: 50px;
+    margin: 40px 50px;
 
     &__bold {
     display: block;
     color: $color-blue-800;
     font-weight: $weight-bold;
     font-size: 1.1rem;
-    margin: 40px 0 12px 0;
+    margin: 0 0 12px 0;
   }
 
   &__text {
   width: 620px;
   font-size: 1rem;
   color: $color-green;
-  margin: 0 0 40px 0;
-}
+  margin: 0;
+  }
 }
 
   .main-help {
+    margin: 0;
 
     &__header {
-      margin: 0 255px 0 255px;
+      margin: 0 270px 0 270px;
       padding: 30px 0 10px 0;
+    }
+
+    &__list {
+      margin-left: 50px;
+    }
+
+    &__list-button {
+      font-size: 0.9rem;
+    }
+
+    &__list-body {
+      font-size: 1rem;
+    }
+
+    &__list-header {
+      font-size: 1.2rem;
+    }
+
+    &__list-item {
+      display: flex;
+      margin-bottom: 30px;
+    }
+
+    &__list-text {
+      margin: 58px 0 0 28px;
+      width: 400px;
     }
   }
 
@@ -234,7 +269,181 @@
       width: 420px;
     }
   }
+
+  .main-subscribe {
+    display: flex;
+
+    &__button {
+      font-size: 1rem;
+    }
+
+    &__email-input {
+      font-size: 0.9rem;
+      margin: 8px 0;
+    }
+
+    &__name-input {
+      font-size: 1rem;
+    }
+
+    &__header {
+      padding: 30px 0 0 130px;
+      margin: 0;
+      width: 200px;
+      text-align: right;
+    }
+
+    &__data {
+      width: 280px;
+      padding: 30px 130px 30px 0;
+    }
+  }
 }
 @media (min-width: 1200px) {
+  .main-about {
+    margin: 50px 80px;
 
+    &__bold {
+    font-size: 1.5rem;
+  }
+
+    &__text {
+      width: 900px;
+      font-size: 1.3rem;
+  }
+}
+
+    .main-image {
+    margin: 80px 0 0 80px;
+
+    &__header {
+      font-size: 1.9rem;
+    }
+
+    &__text {
+      font-size: 2.1rem;
+      width: 600px;
+    }
+  }
+
+  .main-help {
+
+    &__header {
+      margin: 0 465px 0 465px;
+      padding: 50px 0 10px 0;
+      font-size: 1.9rem;
+    }
+
+    &__list {
+      margin-left: 80px;
+    }
+
+    &__list-body {
+      font-size: 1.3rem;
+    }
+
+    &__list-button {
+      font-size: 1.1rem;
+    }
+
+    &__list-header {
+      font-size: 1.5rem;
+    }
+
+    &__list-image {
+      width: 320px;
+    }
+
+    &__list-item {
+      margin-bottom: 80px;
+    }
+
+    &__list-text {
+      width: 680px;
+      margin-top: 85px;
+    }
+  }
+
+  .main-need {
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+
+    &__header {
+      margin: 0 535px 0 535px;
+      padding-top: 50px;
+      font-size: 1.9rem;
+    }
+
+    &__list {
+      margin-left: 80px;
+    }
+
+    &__list-item {
+      margin-right: 22px;
+    }
+
+    &__list-image {
+      width: 85px;
+      margin-right: 130px;
+    }
+
+    &__list-text {
+      font-size: 1.3rem;
+
+    }
+  }
+
+  .main-subscribe {
+
+    &__button {
+      font-size: 1.2rem;
+      padding: 8px;
+      width: 150px;
+    }
+
+    &__data {
+      padding: 60px 0 60px 70px;
+      width: 350px;
+    }
+
+    &__header {
+      width: 320px;
+      padding: 60px 0 0 200px;
+      line-height: 2rem;
+    }
+
+    &__email-input {
+      font-size: 1.2rem;
+      padding: 6px;
+      width: 320px;
+    }
+
+    &__name-input {
+      font-size: 1.2rem;
+      padding: 6px;
+      width: 150px;
+    }
+  }
+
+  .main-footer {
+    margin-left: 80px;
+    padding-top: 60px;
+
+    &__item {
+      width: 140px;
+    }
+
+    &__item-header {
+      font-size: 1.3rem;
+    }
+
+    &__item-sub {
+      font-size: 1.2rem;
+    }
+
+    .footer-left {
+      margin-right: 80px;
+    }
+  }
 }
