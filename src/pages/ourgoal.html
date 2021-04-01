@@ -4,18 +4,20 @@
   <title>Project El Roi'</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link type="text/css" rel="stylesheet" href="styles.css" />
+  <link type="text/css" rel="stylesheet" href="../styles.css" />
 </head>
 <body>
   <header>
 
     <div id="container">
+      <div id="container-logo">
         <a class="icon-link" href="../index.html">
         <h1 id="icon">
-          <img id="svg" src="/images/horizontal-logo.png">
+          <img id="logo" src="/images/horizontal-logo.png">
         </h1>
         </a>
       </div>
+    </div>
 
       <nav class="nav-main">
         <ul class="nav-main__list">
@@ -23,13 +25,13 @@
               <a class="nav-item__link" href="getinvolved.html">Get Involved</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link" href="ourgoal.html"">Our Goal</a>
+              <a class="nav-item__link" href="ourgoal.html">Our Goal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link" href="aboutus.html"">About Us</a>
+              <a class="nav-item__link" href="aboutus.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item__link" href="donate.html"">Donate</a>
+              <a class="nav-item__link nav-item__donate-button" href="donate.html">Donate</a>
             </li>
           </ul>
       </nav>
@@ -55,29 +57,34 @@
 
     <footer>
       <div class="main-footer">
-        <div class="main-footer__list">
-          <li class="main-footer__item">
-            <a class="main-footer__item-header" href="#">GET INVOLVED</a>
-            <a class="main-footer__item-sub" href="becomementor.html">Become a Mentor</a>
-            <a class="main-footer__item-sub" href="faq.html">Mentorship FAQ</a>
-            <a class="main-footer__item-sub" href="opportunities.html">Other Opportunities</a>
+        <ul class="main-footer__list">
+          <li class="main-footer__column footer-left">
+            <div class="main-footer__item footer-left">
+              <a id="footer-main-page" class="main-footer__item-header" href="pages/getinvolved.html">GET INVOLVED</a>
+              <a class="main-footer__item-sub" href="pages/becomementor.html">Become a Mentor</a>
+              <a class="main-footer__item-sub" href="pages/faq.html">Mentorship FAQ</a>
+              <a class="main-footer__item-sub" href="pages/opportunities.html">Other Opportunities</a>
+            </div>
+            <div class="main-footer__item">
+              <a id="footer-main-page" class="main-footer__item-header" href="pages/ourgoal.html">OUR GOAL</a><br>
+              <a class="main-footer__item-sub" href="pages/holisticcare.html">Holistic Care</a>
+            </div>
           </li>
-          <li class="main-footer__item">
-            <a class="main-footer__item-header" href="ourgoal.html">Our Goal</a>
-            <a class="main-footer__item-sub" href="holisticcare.html">Holistic Care</a>
+          <li class="main-footer__column">
+            <div class="main-footer__item footer-left footer-bottom">
+              <a id="footer-main-page" class="main-footer__item-header" href="pages/aboutus.html">ABOUT US</a><br>
+              <a class="main-footer__item-sub" href="pages/whoweare.html">Who We Are</a><br>
+              <a class="main-footer__item-sub" href="pages/whatwedo.html">What We Do</a>
+            </div>
+            <div class="main-footer__item footer-bottom">
+              <img class="main-footer__item-sub social-icon" src="/images/insta-icon.png">
+              <img class="main-footer__item-sub social-icon" src="/images/linkedin-icon.png">
+              <img class="main-footer__item-sub social-icon" src="/images/twitter-icon.png">
+              <img class="main-footer__item-sub social-icon" src="/images/facebook-icon.png">
+            </div>
           </li>
-          <li class="main-footer__item">
-            <a class="main-footer__item-header" href="aboutus.html">About Us</a>
-            <a class="main-footer__item-sub" href="whoweare.html">Who We Are</a>
-            <a class="main-footer__item-sub" href="whatwedo.html">What We Do</a>
-          </li>
-          <li class="main-footer__item">
-            <img class="main-footer__item-header social-icon" src="/images/insta-icon.png">
-            <img class="main-footer__item-sub social-icon" src="/images/linkedin-icon.png">
-            <img class="main-footer__item-sub social-icon" src="/images/twitter-icon.png">
-            <img class="main-footer__item-sub social-icon" src="/images/facebook-icon.png">
-          </li>
-        </div>
+        </ul>
+        <hr>
         <p class="main-footer__reserved">2021 Project El Roi’. All Rights Reserved</p>
       </div>
     </footer>

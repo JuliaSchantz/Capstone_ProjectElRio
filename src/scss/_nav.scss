@@ -1,15 +1,11 @@
-.nav-main {
+.nav-dropdown {
   display: none;
 }
 
 /* Responsive styles */
 
-@media (min-width: 768px) {
-
-}
-
 @media (min-width: 1200px) {
-  .nav-main {
+  .nav-dropdown {
     display: block;
     float: right;
     margin-top: -153px;
@@ -19,11 +15,11 @@
   }
 }
 
-  .nav-item {
+  .dropdown {
     list-style-type: none;
     margin-right: 80px;
 
-  &__link {
+  &dropbtn {
     color: $color-green-800;
     text-shadow: 2px 2px 5px white;
     cursor: pointer;
