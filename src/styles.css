@@ -532,7 +532,7 @@ p {
   #main-page {
     width: 1200px;
     height: 600px;
-    background: url("../images/main-image-circle.png") no-repeat 95% 50%;
+    background: url("../images/main-header-image.png") no-repeat 95% 50%;
     background-size: cover; }
   .main-help__header {
     margin: 0 464px 0 464px;
@@ -808,8 +808,8 @@ p {
 #nav-hamburger {
   display: block;
   position: relative;
-  top: 30px;
-  left: -50px;
+  top: 20px;
+  left: -22px;
   float: right;
   z-index: 1;
   -webkit-user-select: none;
@@ -888,7 +888,7 @@ p {
  */
 #nav-hamburger__list {
   position: absolute;
-  width: 300px;
+  width: 288px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -901,13 +901,30 @@ p {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
 
 .hamburger {
-  padding: 10px 0;
+  padding: 10px 0 2px 0;
   font-size: 22px; }
+
+.hamburger-sub-link {
+  color: #5A6162;
+  margin-top: 0; }
 
 /*
  * And let's slide it in from the left
  */
 #nav-hamburger input:checked ~ ul {
-  transform: none; }
+  transform: translate(-55%, 0); }
+
+@media (min-width: 768px) {
+  #nav-hamburger__list {
+    width: 200px; }
+  #nav-hamburger {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: -50px; } }
+
+@media (min-width: 1200px) {
+  #nav-hamburger {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
