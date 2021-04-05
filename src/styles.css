@@ -848,7 +848,7 @@ p {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #4E5B30;
+  background: #6F7B53;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -867,7 +867,7 @@ p {
 #nav-hamburger input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #4E5B30; }
+  background: #6F7B53; }
 
 /*
  * But let's hide the middle one.
@@ -890,8 +890,8 @@ p {
   position: absolute;
   width: 288px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
+  padding: 30px 30px 30px 70px;
+  padding-top: 100px;
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -903,6 +903,9 @@ p {
 .hamburger {
   padding: 10px 0 2px 0;
   font-size: 22px; }
+
+.hamburger:hover {
+  background: #E9EFF0; }
 
 .hamburger-sub-link {
   color: #5A6162;
@@ -916,7 +919,9 @@ p {
 
 @media (min-width: 768px) {
   #nav-hamburger__list {
-    width: 200px; }
+    width: 200px;
+    padding: 50px 50px 43px 70px;
+    padding-top: 100px; }
   #nav-hamburger {
     display: block;
     position: relative;

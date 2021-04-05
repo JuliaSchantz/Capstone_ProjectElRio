@@ -1,5 +1,4 @@
-#nav-hamburger
-{
+#nav-hamburger {
   display: block;
   position: relative;
   top: 20px;
@@ -56,7 +55,7 @@
   margin-bottom: 5px;
   position: relative;
 
-  background: #4E5B30;
+  background: $color-green;
   border-radius: 3px;
 
   z-index: 1;
@@ -86,7 +85,7 @@
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #4E5B30;
+  background: $color-green;
 }
 
 /*
@@ -115,8 +114,8 @@
   position: absolute;
   width: 288px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
+  padding: 30px 30px 30px 70px;
+  padding-top: 100px;
 
   background: white;
   list-style-type: none;
@@ -135,6 +134,10 @@
   font-size: 22px;
 }
 
+.hamburger:hover {
+  background: #E9EFF0;
+}
+
 .hamburger-sub-link {
   color: $color-blue-800;
   margin-top: 0;
@@ -151,6 +154,8 @@
 @media (min-width: 768px) {
   #nav-hamburger__list {
     width: 200px;
+    padding: 50px 50px 43px 70px;
+    padding-top: 100px;
 }
 
   #nav-hamburger
