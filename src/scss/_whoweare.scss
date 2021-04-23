@@ -1,0 +1,30 @@
+  .whoweare-bottom {
+    margin-bottom: 30px;
+  }
+
+  .whoweare-text {
+    margin-left: 30px;
+    width: 255px;
+
+    &__body {
+      color: $color-blue;
+      font-family: $font-body;
+      font-weight: $weight-regular;
+    }
+  }
+
+.whoweare-found {
+  width: 280px;
+  background-color: #EBF0E0;
+
+  &__header {
+    margin-top: 26px;
+  }
+
+  &__body {
+    color: $color-blue;
+    font-family: $font-body;
+    font-weight: $weight-regular;
+    margin: 10px 0 18px 30px;
+  }
+}
